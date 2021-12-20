@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+template<typename T>
+void cube(T x)
+{
+    cout<<"cube of a number "<<x<<"is"<<x*x*x<<endl;
+    
+}
+int main()
+{
+    cube(3);
+    cube(3.3);
+    return 0;
+}
